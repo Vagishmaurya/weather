@@ -1,0 +1,80 @@
+/* @media (max-width: 750px){
+  .city_info{
+ 
+    flex-direction:column;
+    flex-wrap: wrap;
+    background-color: aqua;
+    
+  }
+  .sky_image{
+    width:2rem;
+  }
+} */
+
+
+
+
+body{
+  background: url("./weather1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+.contain{
+
+  width:80%;
+  height: 1200px;
+  /* background:rgba(0,0,0,0.5); */
+  margin-left: auto;
+  margin-right: auto;
+ 
+
+}
+
+.cityname{
+  padding-left:4rem;
+}
+
+.temperature{
+ 
+  /* background: rgba(45, 45, 45, 0.3); */
+  border-radius: 4px;
+  border:2px solid white;
+
+}
+.temp_data{
+  display:flex;
+  border-radius: 5px;
+}
+
+.today_temp{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.image_div{
+  
+  padding-left:1%;
+  align-items: end;
+  
+}
+
+.icon{
+  width:70%;
+
+}
+
+.other_data{
+  
+  /* background: rgba(0, 0, 0, 0.5); */
+  padding-left:2rem;
+  border:2px solid white;
+  
+}
+
+.custom-margin {
+  margin-left: 2rem;
+}

@@ -1,0 +1,65 @@
+/* Navbar.css */
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif; /* Change to a more attractive font */
+  }
+  
+  .navbar {
+    background-color: #283747; /* Black color */
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FDFFFF;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .toggle-btn {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    display: none; 
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem; /* Increase font size for a more attractive look */
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .toggle-btn {
+      display: block;
+    }
+  
+    .menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      width: 100%;
+      background-color: #000; /* Black color */
+    }
+  
+    .menu.open {
+      display: flex;
+    }
+  }
+  
